@@ -4,8 +4,8 @@ const person = {
   hobby: 'jumping'
 };
 console.log(person);
-const fullName = 'Might ' + 'Guy.';
-console.log("The person's name is:", fullName);
+const fullName = person.firstName + ' ' + person.lastName;
+console.log("The person's name is:", fullName + '.');
 person.job = 'Teacher.';
 console.log("The person's current job is:", person.job);
 person.previousJob = 'Gymnast.';
